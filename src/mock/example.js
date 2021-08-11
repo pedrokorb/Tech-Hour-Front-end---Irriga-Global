@@ -1,4 +1,5 @@
 const example = {
+  "city": "Santa Maria - RS",
   "recentData": {
     "date": "12/08",
     "temperature": 13,
