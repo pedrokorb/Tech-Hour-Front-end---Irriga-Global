@@ -6,8 +6,8 @@ import { FaArrowDown, FaArrowUp } from "react-icons/fa";
 function App() {
   const { recentData, forecast } = example
   return (
-    <div className="flex justify-center bg-gradient-to-b from-blue-900 to-purple-600 h-screen">
-      <div className="flex-1 flex flex-col bg-gray-200 mt-10 mx-6 rounded-t-2xl max-w-screen-lg">
+    <div className="flex justify-center bg-gradient-to-b from-blue-900 to-purple-600 h-screen">{/* 1 */}
+      <div className="flex-1 flex flex-col bg-gray-200 mt-10 mx-6 rounded-t-2xl max-w-screen-lg">{/* 2 */}
         <div className="mt-4 mx-4 flex flex-col justify-center items-center text-gray-700">
           <p className="text-2xl">{recentData.date}</p>
           <div className="flex items-center my-2">
