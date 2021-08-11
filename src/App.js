@@ -1,4 +1,7 @@
 import React from 'react'
+import example from "./mock/example"
+import { getCelsiusValue } from './utils/utils'
+import { FaArrowDown, FaArrowUp } from "react-icons/fa"
 
 function App() {
   return (
